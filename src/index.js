@@ -3,13 +3,13 @@ const bot =  new Discord.Client();
 const parse = require('./parse.js');
 const logic = require('./logic.js');
 const helper = require('./helper.js');
+const fs = require('fs');
 
 // read token from private file to access discord bot credentials
-/*const token = fs.readFile('client_token.txt', 'utf8', function(err, data) {
+const token = fs.readFile('../client_token.txt', 'utf8', function(err, data) {
     if (err) throw err;
     console.log(data);
-});*/
-const token = 'NTc5NDQ1NjMzOTI5MzE0MzA0.XOCQzA.8ixwTR46-qbQepU2ahWDnb2S2wI';
+});
 
 // bot turning on
 bot.on('ready', () => {
