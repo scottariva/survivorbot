@@ -1,13 +1,13 @@
 Discord Bot for Querying Survivor Statistics via Google Sheets
 Created By: Scott Riva
 
-===Usage===
+# Usage
 
 Use "node ." to start the bot running
 The bot will be online and run until the console is cancelled
 You can utilize https://discordapp.com/oauth2/authorize?client_id=579445633929314304&scope=bot&permissions=8 to invite the bot to your desired discord server
 
-===Commands===
+# Commands
 
 Help (!help)
 - List of commands
